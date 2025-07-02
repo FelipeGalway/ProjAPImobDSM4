@@ -56,9 +56,13 @@ yarn install
 
 ## ▶️ Executando o Projeto
 
-### 1. Inicie o Metro Bundler
+### 1. Inicie o Emulador Android
 
-O Metro é o empacotador JavaScript do React Native:
+Antes de iniciar o projeto, **abra o Android Studio** e **inicie manualmente um emulador Android** ou conecte um dispositivo físico com depuração USB ativada.
+
+### 2. Inicie o Metro Bundler
+
+Abra um terminal na raiz do projeto e rode:
 
 ```bash
 npm start
@@ -68,7 +72,7 @@ yarn start
 
 Deixe essa aba do terminal aberta.
 
-### 2. Em outro terminal, execute o app em um emulador Android
+### 3. Em outro terminal, execute o app em um emulador Android
 
 ```bash
 npm run android
